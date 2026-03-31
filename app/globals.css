@@ -1,11 +1,14 @@
+/* /app/globals.css */
 @import "tailwindcss";
 
+/* Base layer */
 @layer base {
   html {
     @apply scroll-smooth;
   }
 
   body {
-    @apply bg-black text-white antialiased;
+    @apply bg-background text-text antialiased;
+    font-family: system-ui, sans-serif;
   }
 }
